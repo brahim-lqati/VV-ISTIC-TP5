@@ -12,3 +12,18 @@ The process is as follows:
 Include the code of the walker and the snapshot in this document.
 
 ## Answer
+
+### Requirements
+- [Python](https://www.python.org/downloads/)
+
+You can install selenium, using this command:
+```bash
+pip install selenium
+```
+I wrote the script in python, you can find it [here](../codes/exo1-script.py)
+
+To execute the script, You can run this command
+```bash
+python3 exo1-script.py
+```
+
