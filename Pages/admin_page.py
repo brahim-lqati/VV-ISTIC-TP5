@@ -1,6 +1,7 @@
 from Pages.base_page import BasePage
 from Locators.locators import AdminPageLocators
 from selenium.webdriver.common.by import By
+from selenium.common.exceptions import TimeoutException
 from datetime import datetime
 from typing import List
 
@@ -110,6 +111,17 @@ class AdminPage(BasePage):
 
     def add_comment(self):
         self.click(AdminPageLocators.add_cmt_btn)
+    
+
+    ## Error form
+    def get_errors(self):
+        try:
+
+            errors = self.get_elements(AdminPageLocators.error_small)
+        except  TimeoutException:
+            errors = None
+        
+        return errors
 
 
 

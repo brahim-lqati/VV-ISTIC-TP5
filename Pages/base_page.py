@@ -9,7 +9,7 @@ class BasePage:
         # driver
         self.driver = driver
         ''' max waiting time'''
-        self.wait = 5
+        self.wait = 3
     
 
     def click(self, locator):

@@ -25,6 +25,8 @@ class AdminPageLocators():
 
     add_cmt_btn = (By.XPATH, "//p-button[@label='Ajouter commentaire']")
 
+    error_small = (By.CLASS_NAME, "p-error")
+
     th_tag = (By.TAG_NAME, "th")
     tr_tag = (By.TAG_NAME, "tr")
     td_tag = (By.TAG_NAME, "td")
