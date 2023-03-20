@@ -7,3 +7,12 @@ The image below shows the poll page of the [Simba Organizer](https://github.com/
 Write in this document the interface of a page object class for this page.
 
 ## Answer
+
+You can find the interface of this page [here](../Pages/admin_page.py)
+
+#### Project structure
+**Pages** folder: which contains the pages of the application.
+
+**Locators** folder: which contains the locators (By.ID, 'example') in a page.
+
+**Tests** folder: for the tests.
